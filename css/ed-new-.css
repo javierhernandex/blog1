@@ -1,0 +1,29 @@
+.ed-menu a{
+	text-transform: uppercase;
+}
+
+.ed-menu a:hover{
+	background:gray;
+	color:white;
+}
+.color_23 {
+	color: #00E1E5;
+	border-radius: 4px;
+}
+
+.font_0 {
+	font: normal normal bold 43px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	color: #ECE7E7;
+}
+.color_1 {
+	background: #4A6068;
+	border-radius: 4px;
+}
+.color_2 {
+	background: #00E1E5;
+	border-radius: 4px;
+}
+.color_3 {
+	background: #66D0D9;
+	border-radius: 4px; 
+}

@@ -1,0 +1,21 @@
+ul.ed-menu.l-horizontal.s-offset-50.expand-submenu.nav-bar
+	each a in url
+		if a=="inicio"
+			li: a(href="index.html") #{a}
+		if a=="evolucion"
+			li: a(href="evolucion.html") evolucion
+				ul
+					li: a(href="evolucion.html#web1") Web 1.0
+					li: a(href="evolucion.html#web2") Web 2.0
+					li: a(href="evolucion.html#web3") Web 3.0
+					li: a(href="evolucion.html#web4") Web 4.0
+			li: a(href="arquitectura.html") arquitectura
+				ul
+					li: a(href="arquitectura.html#mdos") Modelo de dos capas
+					li: a(href="arquitectura.html#m3") Modelo de tres capas
+			li: a(href="tecnologias.html") tecnologias
+				ul
+					li: a(href="tecnologias.html#fdw") Fases de desarrollo
+					li: a(href="tecnologias.html#f") Fases (diseño y maquetacion)
+			li: a(href="planificacion.html") planificacion
+			li: a(href="blog.html") blog

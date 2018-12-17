@@ -1,0 +1,81 @@
+extends plantilla/p1.jade
+
+append config
+	-titulo ="Tecnologias"
+	#arriba.page-header
+block logo
+	img(src="../img/tec.png")
+block main
+	#tda.page-header
+	h1 Tecnologías para el desarrollo de aplicaciones web
+	p(style='text-align:right;') 
+		a(href="#abajo") ir abajo
+	p(style='text-align:justify;') Para desarrollar una web, lo primero que necesitamos es un Sistema Operativo, como es lógico, y su elección no es tan trivial. Hay que tener en cuenta las aplicaciones de las que dispone el Sistema Operativo y sus costes.
+
+	P(style='text-align:justify;') En el desarrollo web tenemos unas herramientas para el diseño, otras para la maquetación, otras para la programación, y para la depuración. Todas las herramientas que usemos son muy importantes, desde el Sistema Operativo hasta el comando más insignificante, y por ello debemos elegir la más adecuada a nuestras necesidades y capacidades.
+
+	P(style='text-align:justify;') Para desarrollar una web, lo primero que necesitamos es un Sistema Operativo, como es lógico, y su elección no es tan trivial. Hay que tener en cuenta las aplicaciones de las que dispone el Sistema Operativo y sus costes.
+
+	P(style='text-align:justify;') Por ejemplo, tenemos Microsoft Windows, cuyas aplicaciones son muy caras, como Photoshop, Dreamweaver, Fireworks, ASP .NET… Y por otro lado tenemos GNU/Linux, con GIMP, Inkscape, Amaya, Aptana, PHP (aunque todos ellos también están disponibles en Windows).
+	
+	#fdw.page-header
+	h2 Fases de desarrollo de una web
+
+	p Para elegir las herramientas a utilizar, antes debemos identificar las fases del proceso que forman el ciclo de vida de un desarrollo web.
+
+	ul 
+		li DISEÑO
+		p El diseño consiste en crear esbozos de la web final mediante una herramienta gráfica, como Photoshop, GIMP o Inkscape.
+
+	ul(style='text-align:justify;')
+		li MAQUETACION HTML/CSS:
+	
+		p La maquetación consiste en convertir los esbozos creados en la fase anterior en plantillas HTML, su respectiva hoja de estilos, y las imágenes usadas. Es posible saltarse la fase anterior para comenzar directamente con esta fase, dependiendo de si dominamos herramientas como Photoshop o no.
+
+	ul
+		li PROGRAMACION CLIENTE
+		p La programación cliente consiste básicamente en Javascript. Una web puede no tener necesidad de hacer programación cliente, como puede ser una pequeña web corporativa con poca información estática, o puede que requiera enormes esfuerzos en esta fase, como ocurre con los proyectos Web 2.0.
+
+	ul
+		li PROGRAMACION SERVIDOR:
+		p En esta fase, que se desarrolla junto con la anterior, crearemos la aplicación web en un lenguaje de servidor, como puede ser PHP, ASP .NET, Python, Perl, etc.
+
+	ul
+		li DEPURACION
+		p Esta fase enlaza la anterior con la siguiente, y es donde haremos las pruebas unitarias, aserciones, trazas, etc.
+
+	ul
+		li PRUEBAS EN LOCAL:
+		p En nuestro servidor local haremos todas las pruebas posibles.
+
+	ul
+		li SUBIR FICHEROS AL HOSTING
+		p Una vez nuestra web esté completada y bien testeada en nuestro servidor local (desarrollo), la subiremos al servidor del hosting elegido (producción). Dependiendo del hosting, podremos usar FTP, SFTP (SSH), WebDAV, o incluso Subversión.
+
+	ul
+		li PRUEBAS EN HOSTING:
+		p Realizaremos las últimas pruebas en el servidor del hosting para comprobar que el cambio de servidor no ha afectado a nada. Para evitar problemas, nuestro servidor local debe tener exactamente la misma configuración que el servidor del hosting.
+	ul
+		li HERRAMIENTAS: DESARROLLO EN PHP
+		p A continuación se enumeran las herramientas básicas para el desarrollo de una web en PHP, en sus diferentes fases de diseño e implementación.
+
+	#f.page-header
+	h3 Fases: diseño y maquetación
+
+	ul
+		li Adobe PhotoShop
+
+	ul
+		li  GIMP
+
+	ul
+		li Inkscape
+
+	ul
+		li  Adobe Fireworks
+
+	ul
+		li Dreamweaver, Aptana, Amaya
+	p(style='text-align:right;') 
+		a(href="#arriba") ir arriba
+	#abajo.page-header

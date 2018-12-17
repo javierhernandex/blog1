@@ -1,0 +1,39 @@
+block config
+	include ../config/variable.jade
+<!DOCTYPE html>
+html
+	head
+		title #{titulo}
+		meta(charset="UTF-8")
+		meta(name="description" content="#{descripcion}")
+		link(rel="stylesheet" href="css/bootstrap.css")
+		link(rel="stylesheet" href="css/ed-grid.min.css" )
+		link(rel="stylesheet" href="css/ed-grid.css" )
+		link(rel="stylesheet" href="css/ed-new-.css" )
+
+
+	body
+		header.ed-container
+			.ed-item.s-10
+				block logo
+			nav
+				.ed-item.s-offset-10
+					include ../bloques/menu.jade
+		#imagen.ed-container
+			.ed-item.s
+				.s-main-center
+					block imagen
+		.ed-container
+			main.ed-item.s-75.role.main
+				block main
+			aside.ed-item.s-25.role.complementary
+				block aside
+					
+					
+		footer.ed-container
+			.ed-item
+				block footer
+					.s-main-center
+						p Practica de HTML5 y Jade
+					.s-main-center
+						p Periodo Enero - Agosto 2017

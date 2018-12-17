@@ -1,0 +1,41 @@
+extends plantilla/p1.jade
+
+append config
+	-titulo ="Blog"
+block logo
+	img(src="../img/cubo.png")
+block main
+	
+	nav.color_1
+		.ed-container
+			.ed-item.s-25
+				img(src="../img/foto.jpg" align=left hspace=10 width=250 hight=170 border=1)
+			.ed-item.s-75
+				h3(style='text-align:justify;') Ing. Sistemas Computacionales
+				h1.font_0(style='line-height:0.9em;')
+					span(style='line-height:0.9em;')
+						| FCO.
+						span.color_23  JAVIER
+						|  HDEZ.
+						span.color_23  DE
+						|  LA
+						span.color_23  CRUZ
+	nav.color_2
+		.ed-container
+			.ed-item
+				p(style='text-align:justify;') Inicie mi formación académica universitaria en Instituto Tecnológico Superior de los Ríos en la carrera de Ing. En sistemas computacionales, en la cual curso el 8° semestre de esta. Durante este largo periodo he ido adquiriendo diversos conocimientos gracias a los profesores de esta institución. 
+				p(style='text-align:justify;') Actualmente tengo 22 años de edad, originario de Tenosique de Pino Suarez Tab, México.
+				p(style='text-align:justify;') Soy amante de los videojuegos, así como de los ordenadores.
+
+block aside
+	.ed-container.color_3
+		.ed-item
+			h1(style='text-align:center;') Sigueme:
+			p(align="center")
+				a(href="https://www.facebook.com/FRANK031294")
+					img(src="../img/face.png" width=50 hight=50)
+				a(href="https://www.instagram.com/javier.hernandez.2/")
+					img(src="../img/insta.png" width=50 hight=50)
+
+
+
